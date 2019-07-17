@@ -17,7 +17,7 @@ describe('Vampire', function() {
     assert.equal(vampire.name, 'Jhun');
   });
 
-  it('should have a pet bat as a default', function() {
+  it.only('should have a pet bat as a default', function() {
     var vampire = new Vampire('Brittany');
     assert.equal(vampire.name, 'Brittany');
     assert.equal(vampire.pet, 'bat');
@@ -28,12 +28,12 @@ describe('Vampire', function() {
     assert.equal(vampire.pet, 'fox');
   });
 
-  it.skip('should have vampire return true if thirsty', function() {
+  it('should have vampire return true if thirsty', function() {
     var vampire1 = new Vampire('Andy');
     assert.equal(vampire1.thirsty, true);
   });
 
-  it.skip('should refute thirsty if vampire has drank', function() {
+  it('should refute thirsty if vampire has drank', function() {
     var vampire = new Vampire('Meeka');
     vampire.drink();
     assert.equal(vampire.thirsty, false);
