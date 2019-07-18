@@ -28,15 +28,3 @@ class Wizard {
 
 module.exports = Wizard;
 
-
-// npm test mythical-creatures/test/wizard-test.js
-
-
-
-
-// if (job === undefined) {
-// 			return this.job = 'Scallywag';
-// 		} else {
-// 			this.job = job;
-// 		}
-// 	}

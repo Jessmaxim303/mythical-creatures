@@ -28,13 +28,6 @@ class Hobbit {
 module.exports = Hobbit;
 
 
-// npm test mythical-creatures/test/hobbit-test.js
-
-// 1. read the test
-// 2. ask yourself if its going to fail and why
-// 3. run the test
-// 4. make it pass
-
 
 
 

@@ -21,7 +21,5 @@ class Medusa {
 
 
 
-// npm test mythical-creatures/test/medusa-test.js
-
 module.exports = Medusa;
 
