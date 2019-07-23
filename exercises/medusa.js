@@ -9,8 +9,8 @@ class Medusa {
        	this.statues.shift();
        }
 
-        if (this.statues.length < 3) {
-    	this.statues.push(victim);
+    if (this.statues.length < 3) {
+    	  this.statues.push(victim);
        }
 
        victim.stoned = true;

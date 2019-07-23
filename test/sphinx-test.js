@@ -20,10 +20,7 @@ describe('Sphinx', () => {
 
   it('should collect riddles', () => {
     const sphinx = new Sphinx();
-    const riddle = {
-      riddle: 'What word becomes shorter when you add two letters to it?', 
-      answer: 'short'
-    };
+    const riddle = {riddle: 'What word becomes shorter when you add two letters to it?', answer: 'short' };
 
     sphinx.collectRiddle(riddle);
 
